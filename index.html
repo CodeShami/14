@@ -285,11 +285,14 @@ https://medium.com/@leventov/comparison-of-the-open-source-olap-systems-for-big-
 	которые покрывают небольшой интервал данных:
 </p>
 
-<img src="1.png" alt="">
+<div style="text-align: center;">
+	<img src="1.png" alt="">
 
-<p>
-	<i>Компромисс распределения данных в ClickHouse</i>
-</p>
+	<p>
+		<i>Компромисс распределения данных в ClickHouse</i>
+	</p>
+</div>
+
 
 <p>
 	В примере, показанном на изображении выше, данные таблицы распределены между тремя узлами в Druid/Pinot, но запрос по
@@ -327,12 +330,14 @@ https://medium.com/@leventov/comparison-of-the-open-source-olap-systems-for-big-
 	Эта функция позволяет Metamarkets экономить сотни тысяч долларов расходов на инфраструктуру Druid каждый месяц - в
 	противовес тому варианту, если бы использовался “плоский” кластер.
 </p>
+<div style="text-align: center;">
+	<img src="2.png" alt="" style="margin: 0 auto;">
 
-<img src="2.png" alt="">
+	<p>
+		<i>Уровни узлов обработки запросов в Druid</i>
+	</p>
+</div>
 
-<p>
-	<i>Уровни узлов обработки запросов в Druid</i>
-</p>
 
 <p>Насколько мне известно, в ClickHouse и Pinot пока еще нет похожей функциональности - предполагается, что все узлы в их
 кластерах одинаковы.</p>
@@ -491,8 +496,8 @@ https://medium.com/@leventov/comparison-of-the-open-source-olap-systems-for-big-
 	случае является предпочтительным выбором.
 </p>
 
-<table border="1px solid black">
-	<tr align="center">
+<table border="1px solid black" >
+	<tr align="center" >
 		<td><strong>ClickHouse</strong></td>
 		<td><strong>Druid или Pinot</strong></td>
 	</tr>
